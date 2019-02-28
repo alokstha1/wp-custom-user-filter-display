@@ -39,4 +39,4 @@
 <!-- End of the user listing table -->
 
 <?php
-include(plugin_dir_path( __FILE__ ). 'pagination.php'); //pagination template included
+include(plugin_dir_path( __FILE__ ). 'pagination.php'); //pagination template included.
