@@ -44,6 +44,7 @@ global $wp_roles; // global WP_Roles $wp_roles
             <option value="DESC"><?php echo __( 'DESC', 'wcufd' ); ?></option>
         </select>
         <!-- End of Order dropdown section -->
+
         <!-- Hidden permalink passed for using in pagination -->
         <input type="hidden" name="permalink" value="<?php echo get_permalink(); ?>">
 
