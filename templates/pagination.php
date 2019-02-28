@@ -5,6 +5,7 @@
 
 if ( $total_users > $total_query ) {
     echo '<div id="wcufd-pagination" class="clearfix">';
+
     $current_page = max(1, $paged); //returns the highest value
 
     if ( isset( $_POST['permalink'] ) && !empty( $_POST['permalink'] ) ) {
