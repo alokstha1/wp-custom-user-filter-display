@@ -16,7 +16,7 @@ if ( $total_users > $total_query ) {
     echo paginate_links(
         array(
            'base'       => $base,
-           'format'     => '?paged=%#%',
+           'format'     => 'page/%#%',
            'current'    => $current_page,
            'total'      => $total_pages,
            'prev_next'  => false,
