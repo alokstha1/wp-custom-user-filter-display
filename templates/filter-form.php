@@ -47,7 +47,7 @@ global $wp_roles; // global WP_Roles $wp_roles
 
         <!-- Hidden permalink passed for using in pagination -->
         <input type="hidden" name="permalink" value="<?php echo get_permalink(); ?>">
-
+        <input type="hidden" name="action" value="filter_user">
         <input type="submit" name="filterit" id="filterit" class="button" value="Filter">
     </div>
 </form>
